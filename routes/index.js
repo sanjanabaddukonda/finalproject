@@ -23,9 +23,9 @@ router.get('/about', function(req, res, next) {
 });
 
 /* GET products page. */
-router.get('/stats', function(req, res, next) {
-  res.render('stats', { 
-    title: 'Products'
+router.get('/achievements', function(req, res, next) {
+  res.render('achievements', { 
+    title: 'Achievements'
   });
 });
 

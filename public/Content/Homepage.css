@@ -3,7 +3,7 @@ body {
     animation: fadeIn 0.8s ease-in-out;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    --line : #d7d2c9;
+    --line : #000000;
     --bg: #51524d;
     background-image: url("https://wallup.net/wp-content/uploads/2019/09/128430-soccer.jpg");
     background-color: var(--line);
