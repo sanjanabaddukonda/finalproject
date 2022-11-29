@@ -85,7 +85,7 @@ overflow: hidden;
 
 .col{
   width: 30%;
-  height:570px;
+  height: auto;
   float: left;
   text-align: center;
   padding: 5px;
