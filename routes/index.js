@@ -30,9 +30,9 @@ router.get('/stats', function(req, res, next) {
 });
 
 /* GET services page. */
-router.get('/apply', function(req, res, next) {
-  res.render('apply', { 
-    title: 'apply'
+router.get('/projectguide', function(req, res, next) {
+  res.render('projectguide', { 
+    title: 'projectguide'
   });
 });
 

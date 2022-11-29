@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body {
+    animation: fadeIn 0.8s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --line : #d7d2c9;
+    --bg: #51524d;
+    background-image: url("https://wallup.net/wp-content/uploads/2019/09/128430-soccer.jpg");
+    background-color: var(--line);
+  }
+
+#wrapper
+{
+    width: 960px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 0, 0, 0.64);
+}
+#column
+{
+    border-radius: 25px;
+    animation: fadeIn 0.8s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    float: none;
+    width: 960px;
+    height: 650px;
+    background-color: rgba(25, 22, 58, 0.5);
+
+}
+.box
+{
+    border-radius: 25px;
+    height: 245px; 
+    width: 400px;
+    float: left; 
+    background-color:rgb(255, 252, 252); 
+    margin: 30px; 
+    opacity:.8;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+}
+#footer 
+{ 
+    height: 60px;
+    text-align: center;
+    color:rgb(252, 251, 249);
+}
+#banner h1
+{
+    color:rgb(252, 251, 249);
+}
+.box:hover 
+{ 
+    background-color:rgb(94, 94, 101); 
+    opacity:1; 
+}
