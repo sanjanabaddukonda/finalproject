@@ -36,6 +36,12 @@ router.get('/projectguide', function(req, res, next) {
   });
 });
 
+router.get('/news', function(req, res, next) {
+  res.render('news', { 
+    title: 'news'
+  });
+});
+
 
 
 module.exports = router;
