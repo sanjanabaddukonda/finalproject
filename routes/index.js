@@ -42,6 +42,11 @@ router.get('/news', function(req, res, next) {
   });
 });
 
+router.get('/crud', function(req, res, next) {
+  res.render('crud', { 
+    title: 'crud'
+  });
+});
 
 
 module.exports = router;
