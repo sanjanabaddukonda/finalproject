@@ -48,5 +48,18 @@ router.get('/crud', function(req, res, next) {
   });
 });
 
+router.get('/login', function(req, res, next) {
+  res.render('login', { 
+    title: 'login'
+  });
+});
+
+router.get('/registration', function(req, res, next) {
+  res.render('registration', { 
+    title: 'registration'
+  });
+});
+
+
 
 module.exports = router;

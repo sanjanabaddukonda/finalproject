@@ -1,0 +1,38 @@
+
+<body>
+    <div class="login-wrapper">
+        <form action="" class="form">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input type="text" name="loginUser" id="email" required />
+                <label for="loginUser">Email Address </label>
+            </div>
+            <div class="input-group">
+                <input
+                    type="password"
+                    name="loginPassword"
+                    id="password"
+                    required
+                />
+                <label for="loginPassword">Password</label>
+            </div>
+            <input type="submit" value="Login" class="submit-btn" onclick="auth()"/>
+        </form>
+    </div>
+    
+   <script>
+        function auth(){
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if(email== email && password== password){
+                window.location.assign("/");
+                alert("Login Successfully");
+            }
+            else{
+                alert("Invalid Information");
+                return;
+            }
+        }
+    </script>
+  </body>
+</html>
