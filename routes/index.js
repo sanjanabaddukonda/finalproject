@@ -3,8 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { 
-    title: 'Home'
+  res.render('login', { 
+    title: 'login'
   });
 });
 
@@ -60,6 +60,11 @@ router.get('/registration', function(req, res, next) {
   });
 });
 
-
+/* GET home page. */
+router.get('/logout', function(req, res, next) {
+  res.render('logout', {
+    title: "logout"
+  });
+});
 
 module.exports = router;

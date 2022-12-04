@@ -1,12 +1,15 @@
-
+ <link rel="stylesheet" href="Content/login.css">
 <body>
     <div class="login-wrapper">
         <form action="" class="form">
             <h2>Login</h2>
+
             <div class="input-group">
-                <input type="text" name="loginUser" id="email" required />
-                <label for="loginUser">Email Address </label>
+            <br>
+            <input type="text" name="loginUser" id="email" required />
+            <label for="loginUser">Email Address </label>
             </div>
+
             <div class="input-group">
                 <input
                     type="password"
@@ -14,25 +17,31 @@
                     id="password"
                     required
                 />
+                
                 <label for="loginPassword">Password</label>
             </div>
             <input type="submit" value="Login" class="submit-btn" onclick="auth()"/>
+            <br>
+            Not a member? <a href="registration">Signup now</a>
+            <br>
         </form>
     </div>
     
+    <script src="registration.ejs"></script>
+
    <script>
-        function auth(){
-            var email = document.getElementById("email").value;
-            var password = document.getElementById("password").value;
-            if(email== email && password== password){
-                window.location.assign("/");
-                alert("Login Successfully");
-            }
-            else{
-                alert("Invalid Information");
-                return;
-            }
-        }
+    function auth(){
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    if(email == email && password == password){
+        window.location.assign("home");
+        alert("Login Successfully");
+    }
+    else{
+        alert("Invalid Information");
+        return;
+    }
+}
     </script>
   </body>
 </html>
