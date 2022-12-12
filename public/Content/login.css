@@ -1,6 +1,10 @@
 /* ===== Google Font Import - Poformsins ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+.data{
+    display: none;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +26,7 @@ body{
 .login-wrapper{
     text-indent: 3px;
     border-radius: 25px;
-    height: 300px; 
+    height: 500px; 
     width: 400px;
     float: left; 
     background-color:rgb(255, 252, 252); 
