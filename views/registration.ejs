@@ -9,29 +9,31 @@
   <!-- registration form -->
   <div class="register">
     <h2>Registration</h2>
-    <form action="#">
-      <div class="input-box">
-        <input type="text" placeholder="Enter your name" required>
-      </div>
-      <div class="input-box">
-        <input type="email" placeholder="Enter your email" required>
-      </div>
-      <div class="input-box">
-        <input type="password" placeholder="Create password" required>
-      </div>
-      <div class="input-box">
-        <input type="password" placeholder="Confirm password" required>
-      </div>
-      
-      <div class="input-box button">
-        <input type="Submit" value="Register Now">
-      </div>
-      <div class="text">
-      <!-- redirect user back to login -->
-        <p>Already have an account? <a href="login">Login now</a></p>
-      </div>
-    </form>
+      <form id="registerform" onsubmit=" return validateForm()">
+        First name:<br>
+        <label>
+        Name:<br>
+          <input type="text" required="required" name="getfirstname">
+        </label><br>
+        Email:<br>
+        <input type="email" required="required" name="email"/><br>
+        Password:<br>
+        <input type="password" required="required" name="password"/><br>
+        Password retype:<br>
+        <input type="password" required="required" name="password2"/><br>
+        <input type="submit"  value="Submit">
+      </form>
   </div>
 
 </body>
 
+<script>
+function validateForm() {
+var x = document.forms["registerform"]["password"].value;
+var y = document.forms["registerform"]["password2"].value;
+if (y != x){
+    alert("The passwords do not match. Please try again!");
+    return false;
+}
+}
+</script>
