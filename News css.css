@@ -1,0 +1,79 @@
+/**news gallery**/
+/* five columns side by side */
+
+.index-news {
+    width: 100%;
+    padding: 80px 0px;
+    background-color : #ccc;
+    /*made edits to "background-colour", spelling was incorrect*/
+    overflow:hidden;
+}
+  
+.index-news article {
+    width: 18%;
+    float: left;
+    margin: 0px 1%;
+}
+  
+.saka-img {
+   width: 100%;
+   height: 120px;
+   background-color : #000;
+   /*made edits to "background-colour", spelling was incorrect*/
+   background-image : url('/images/saka_wc.jpg ');
+}
+.beckham-img {
+   width: 100%;
+   height: 120px;
+   background-color : #000;
+   /*made edits to "background-colour", spelling was incorrect*/
+   background-image : url('/images/beckham_wc_new.jpg ');
+}
+.pickford-img {
+   width: 100%;
+   height: 120px;
+   background-color : #000;
+   /*made edits to "background-colour", spelling was incorrect*/
+   background-image : url('/images/pickford_wc.jpg ');
+}
+.niko_w-img {
+   width: 100%;
+   height: 120px;
+   background-color : #000;
+   /*made edits to "background-colour", spelling was incorrect*/
+   background-image : url('/images/niko_williams_wc.jpg ');
+}
+.koulibaliy-img {
+   width: 100%;
+   height: 120px;
+   background-color : #000;
+   /*made edits to "background-colour", spelling was incorrect*/
+   background-image : url('/images/kkoulibaly_wc.jpg ');
+}
+
+.index-news h3 { 
+   font-weight: 400; 
+   font-family: Lato; 
+   font-size: 18px;  
+   text-align:center;
+   padding-bottom: 10px; 
+   padding-top: 10px; 
+   text-transform:uppercase; 
+   color:#000;
+  
+}
+  
+.index-news p { 
+   font-weight: 400; 
+   font-family: Lato; 
+   font-size: 14px;  
+   text-align:center;
+   padding-bottom: 10px; 
+   color:#000;
+}
+  
+
+
+  
+
+
